@@ -4,11 +4,13 @@ const ANIM = `
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
   @keyframes fadeUp { from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)} }
   .pts-card { animation: fadeUp 0.45s cubic-bezier(0.16,1,0.3,1) both 0.08s; }
-  .shine-text {
-    background: linear-gradient(90deg,#ef4444,#f97316,#fbbf24,#f97316,#ef4444);
-    background-size: 200% auto; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-    animation: shimmer 3s linear infinite;
-  }
+.shine-text {
+  background: linear-gradient(90deg,#ca8a04,#eab308,#fde047,#eab308,#ca8a04);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 3s linear infinite;
+}
   @keyframes shimmer { 0%{background-position:-200% center}100%{background-position:200% center} }
 `;
 

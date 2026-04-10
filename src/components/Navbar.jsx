@@ -53,7 +53,7 @@ const style = `
 
 // Side tabs (fixed equal width, no size change when inactive)
 const SIDE_TABS = [
-  { id: "hot",     label: "Hot",     Icon: IoFlame,    IconOff: IoFlameOutline,    color: "#f97316" },
+  { id: "hot",     label: "Hot",     Icon: IoFlame,    IconOff: IoFlameOutline,    color: "#ec4899" },
   { id: "points",  label: "Points",  Icon: IoBarChart, IconOff: IoBarChartOutline, color: "#facc15" },
   // center placeholder — handled separately
   { id: "matches", label: "Matches", Icon: IoFootball, IconOff: IoFootballOutline, color: "#60a5fa" },

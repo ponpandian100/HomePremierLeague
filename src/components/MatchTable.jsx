@@ -4,42 +4,51 @@ const ANIM = `
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
   @keyframes fadeUp { from { opacity:0; transform:translateY(18px);} to {opacity:1; transform:translateY(0);} }
   .mc-card { animation: fadeUp 0.45s cubic-bezier(0.16,1,0.3,1) both; }
-  .shine-text {
-    background: linear-gradient(90deg,#ef4444,#f97316,#fbbf24,#f97316,#ef4444);
-    background-size: 200% auto; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-    animation: shimmer 3s linear infinite;
-  }
+.shine-text {
+  background: linear-gradient(
+    90deg,
+    #2563eb,
+    #3b82f6,
+    #93c5fd,
+    #3b82f6,
+    #2563eb
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 3s linear infinite;
+}
   @keyframes shimmer { 0% { background-position: -200% center } 100% { background-position: 200% center } }
 `;
 
 /* fixed palette per player */
 const PALETTE_BY_NAME = {
-  Pon:    { dot: "#ef4444", glow: "rgba(239,68,68,0.28)", dim: "rgba(239,68,68,0.06)" },
+  Pon: { dot: "#ef4444", glow: "rgba(239,68,68,0.28)", dim: "rgba(239,68,68,0.06)" },
   Naveen: { dot: "#60a5fa", glow: "rgba(96,165,250,0.28)", dim: "rgba(96,165,250,0.06)" },
-  Varun:  { dot: "#fbbf24", glow: "rgba(251,191,36,0.28)", dim: "rgba(251,191,36,0.06)" },
-  Pal:    { dot: "#ec4899", glow: "rgba(236,72,153,0.28)", dim: "rgba(236,72,153,0.06)" },
+  Varun: { dot: "#fbbf24", glow: "rgba(251,191,36,0.28)", dim: "rgba(251,191,36,0.06)" },
+  Pal: { dot: "#ec4899", glow: "rgba(236,72,153,0.28)", dim: "rgba(236,72,153,0.06)" },
 };
 
 /* filename mapping — players */
 const FILENAME_BY_NAME = {
-  Pon:    "Pon.png",
+  Pon: "Pon.png",
   Naveen: "Naveen.png",
-  Pal:    "Pal.png",
-  Varun:  "Varun.png",
+  Pal: "Pal.png",
+  Varun: "Varun.png",
 };
 
 /* IPL team logo mapping */
 const TEAM_LOGOS = {
-  CSK:  "CSK.jpg",
-  MI:   "MI.png",
-  RCB:  "RCB.jpg",
+  CSK: "CSK.jpg",
+  MI: "MI.png",
+  RCB: "RCB.jpg",
   PBKS: "PBKS.png",
-  DC:   "DC.jpg",
-  KKR:  "KKR.jpg",
-  GT:   "GT.png",
-  LSG:  "LSG.jpeg",
-  RR:   "RR.jpg",
-  SRH:  "SRH.jpg",
+  DC: "DC.jpg",
+  KKR: "KKR.jpg",
+  GT: "GT.png",
+  LSG: "LSG.jpeg",
+  RR: "RR.jpg",
+  SRH: "SRH.jpg",
 };
 
 function getPrize(players = []) {
@@ -69,7 +78,7 @@ function TeamBadge({ name }) {
           alt={name}
           onError={() => setImgFailed(true)}
           style={{ width: 36, height: 36, display: "block", borderRadius: "50%" }}
-        /> 
+        />
       ) : (
         <div style={{
           width: 36, height: 36, borderRadius: "50%",

@@ -6,6 +6,7 @@ import MatchTable from "./components/MatchTable";
 import Points from "./components/Points";
 import SomethingWentWrong from "./components/SomethingWentWrong";
 import Hot from "./components/Hot";
+import PaymentHistory from "./components/PaymentHistory"
 
 export default function App() {
   const [hplData, setHplData] = useState(null);
@@ -51,7 +52,7 @@ export default function App() {
     points: <Points matchHistory={matchHistory} players={players} />,
     matches: <MatchTable matchHistory={matchHistory} players={players} />,
     hot: <Hot matchHistory={matchHistory} players={players} />,
-    amount: <SomethingWentWrong label="Amount" />,
+    amount: <PaymentHistory matchHistory={matchHistory} />,
   };
 
   return (
