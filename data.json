@@ -179,6 +179,18 @@
         { "player": "Varun", "paid": "10", "points": "558.5" },
         { "player": "Pal", "paid": "10", "points": "441" }
       ]
+    },
+     {
+      "matchOn": "10/04/26",
+      "match": "16",
+      "teams": ["RCB", "RR"],
+      "entryFee": "10",
+      "players": [
+        { "player": "Pon", "paid": "10", "points": "778" },
+        { "player": "Naveen", "paid": "10", "points": "798" },
+        { "player": "Varun", "paid": "10", "points": "875.5" },
+        { "player": "Pal", "paid": "10", "points": "841" }
+      ]
     }
   ]
 }
