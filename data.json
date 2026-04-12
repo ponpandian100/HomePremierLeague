@@ -215,6 +215,18 @@
         { "player": "Varun", "paid": "10", "points": "994" },
         { "player": "Pal", "paid": "10", "points": "832.5" }
       ]
+    },
+       {
+      "matchOn": "12/04/26",
+      "match": "19",
+      "teams": ["LSG", "GT"],
+      "entryFee": "10",
+      "players": [
+        { "player": "Pon", "paid": "10", "points": "848.5" },
+        { "player": "Naveen", "paid": "10", "points": "846" },
+        { "player": "Varun", "paid": "10", "points": "789" },
+        { "player": "Pal", "paid": "10", "points": "833.5" }
+      ]
     }
   ]
 }
