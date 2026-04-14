@@ -6,53 +6,59 @@ import MatchTable from "./components/MatchTable";
 import Points from "./components/Points";
 import SomethingWentWrong from "./components/SomethingWentWrong";
 import Hot from "./components/Hot";
-import PaymentHistory from "./components/PaymentHistory"
+import PaymentHistory from "./components/PaymentHistory";
+import AdminPanel from "./components/AdminPanel";
 
 export default function App() {
   const [hplData, setHplData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [active, setActive] = useState("home");
+  // Admin: holds a working copy of match data for editing
+  const [adminMatches, setAdminMatches] = useState(null);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data.json?v=${Date.now()}`)
       .then((res) => res.json())
       .then((data) => {
-        // Support { hpl:[...] }, [{ hpl:[...] }], or flat array
         const raw = data?.hpl ?? data?.[0]?.hpl ?? data;
         setHplData(raw);
+        // Seed admin panel with raw hpl array
+        const hplArr = Array.isArray(raw) ? raw : raw?.hpl ?? [];
+        setAdminMatches(hplArr);
       })
       .catch(() => setHplData(null))
       .finally(() => setTimeout(() => setIsLoading(false), 2000));
   }, []);
 
-
-  // useEffect(() => {
-  //   fetch(`${import.meta.env.BASE_URL}data.json?v=${Date.now()}`)
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       // Support both flat HPL shape and the HPL-wrapped shape
-  //       const raw = data?.[0]?.hpl ?? data;
-  //       setHplData(raw);
-  //     })
-  //     .catch(() => setHplData(null))
-  //     .finally(() => setTimeout(() => setIsLoading(false), 2000));
-  // }, []);
-
   if (isLoading) return <Loading />;
 
   const players = hplData?.players ?? [];
-  // hpl array IS the match history in the new JSON format
   const matchHistory = Array.isArray(hplData)
-    ? hplData                          // { hpl:[...] } → raw = hpl array
+    ? hplData
     : hplData?.matchHistory ?? [];
 
+  // Admin panel — full screen, no navbar
+  if (active === "admin") {
+    return (
+      <AdminPanel
+        initialData={adminMatches ?? matchHistory}
+        onBack={() => setActive("home")}
+      />
+    );
+  }
 
   const pages = {
-    home: <HomePage players={players} matchHistory={matchHistory} />,
-    points: <Points matchHistory={matchHistory} players={players} />,
+    home: (
+      <HomePage
+        players={players}
+        matchHistory={matchHistory}
+        onGoAdmin={() => setActive("admin")}
+      />
+    ),
+    points:  <Points  matchHistory={matchHistory} players={players} />,
     matches: <MatchTable matchHistory={matchHistory} players={players} />,
-    hot: <Hot matchHistory={matchHistory} players={players} />,
-    amount: <PaymentHistory matchHistory={matchHistory} />,
+    hot:     <Hot     matchHistory={matchHistory} players={players} />,
+    amount:  <PaymentHistory matchHistory={matchHistory} />,
   };
 
   return (
