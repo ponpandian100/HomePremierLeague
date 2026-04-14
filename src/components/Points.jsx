@@ -28,22 +28,50 @@ function imageSrcFor(name) {
 
 function computeStandings(matchHistory = []) {
   const stats = {};
+
   matchHistory.forEach((match) => {
     const players = match.players || [];
     if (!players.length) return;
+
     const maxPts = Math.max(...players.map((p) => parseFloat(p.points || 0)));
+
     players.forEach((p) => {
       const nm = p.player;
-      if (!stats[nm]) stats[nm] = { player: nm, M: 0, W: 0, L: 0, totalPts: 0, results: [] };
+
+      if (!stats[nm]) {
+        stats[nm] = {
+          player: nm,
+          M: 0,
+          W: 0,
+          L: 0,
+          totalPts: 0,
+          results: [],
+        };
+      }
+
       const pts = parseFloat(p.points || 0);
+
       stats[nm].M++;
       stats[nm].totalPts += pts;
-      if (pts === maxPts) { stats[nm].W++; stats[nm].results.push("W"); }
-      else                { stats[nm].L++; stats[nm].results.push("L"); }
+
+      if (pts === maxPts) {
+        stats[nm].W++;
+        stats[nm].results.push("W");
+      } else {
+        stats[nm].L++;
+        stats[nm].results.push("L");
+      }
     });
   });
-  // Sort by total FPTS
-  return Object.values(stats).sort((a, b) => b.totalPts - a.totalPts);
+
+  // ✅ UPDATED SORTING
+  return Object.values(stats).sort((a, b) => {
+    // 1️⃣ Sort by Wins
+    if (b.W !== a.W) return b.W - a.W;
+
+    // 2️⃣ If Wins equal → sort by FPTS
+    return b.totalPts - a.totalPts;
+  });
 }
 
 function Last10({ results = [] }) {

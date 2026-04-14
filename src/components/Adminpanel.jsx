@@ -5,8 +5,8 @@ import { useState } from "react";
 // ─────────────────────────────────────────────────────────────
 const GITHUB_OWNER = "ponpandian100";   // e.g. "ponpandian"
 const GITHUB_REPO  = "HomePremierLeague";          // e.g. "hpl-app"
-const FILE_PATH    = "public/data.json";        // path inside repo
-const BRANCH       = "hpl";                    // your default branch
+const FILE_PATH    = "data.json";        // path inside repo
+const BRANCH       = "gh-pages";                    // your default branch
 // ─────────────────────────────────────────────────────────────
 
 const PLAYERS = ["Pon", "Naveen", "Varun", "Pal"];
