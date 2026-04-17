@@ -650,6 +650,99 @@
           "points": "593.5"
         }
       ]
+    },
+    {
+      "matchOn": "14/04/26",
+      "match": "22",
+      "teams": [
+        "CSK",
+        "KKR"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "713.5"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "650"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "732.5"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "623"
+        }
+      ]
+    },
+    {
+      "matchOn": "15/04/26",
+      "match": "23",
+      "teams": [
+        "LSG",
+        "RCB"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "711"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "556"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "538.5"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "801.5"
+        }
+      ]
+    },
+    {
+      "matchOn": "16/04/26",
+      "match": "24",
+      "teams": [
+        "MI",
+        "PBKS"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "824"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "829"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "558"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "717"
+        }
+      ]
     }
   ]
 }
