@@ -867,6 +867,37 @@
           "points": "723.5"
         }
       ]
+    },
+    {
+      "matchOn": "19/04/26",
+      "match": "29",
+      "teams": [
+        "PBKS",
+        "LSG"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "750"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "519"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "847"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "949.5"
+        }
+      ]
     }
   ]
 }
