@@ -991,6 +991,37 @@
           "points": "644"
         }
       ]
+    },
+    {
+      "matchOn": "23/04/26",
+      "match": "33",
+      "teams": [
+        "CSK",
+        "MI"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "714"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "497.5"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "842.5"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "843.5"
+        }
+      ]
     }
   ]
 }
