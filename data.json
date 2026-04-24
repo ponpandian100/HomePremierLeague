@@ -1022,37 +1022,6 @@
           "points": "843.5"
         }
       ]
-    },
-    {
-      "matchOn": "24/04/26",
-      "match": "34",
-      "teams": [
-        "GT",
-        "RCB"
-      ],
-      "entryFee": "10",
-      "players": [
-        {
-          "player": "Pon",
-          "paid": "10",
-          "points": "695.5"
-        },
-        {
-          "player": "Naveen",
-          "paid": "10",
-          "points": "945"
-        },
-        {
-          "player": "Varun",
-          "paid": "10",
-          "points": "766.5"
-        },
-        {
-          "player": "Pal",
-          "paid": "10",
-          "points": "780.5"
-        }
-      ]
     }
   ]
 }
