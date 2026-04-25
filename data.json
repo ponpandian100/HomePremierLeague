@@ -1084,6 +1084,37 @@
           "points": "1183"
         }
       ]
+    },
+    {
+      "matchOn": "25/04/26",
+      "match": "36",
+      "teams": [
+        "RR",
+        "SRH"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "1036.5"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "1079"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "1108.5"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "1242.5"
+        }
+      ]
     }
   ]
 }
