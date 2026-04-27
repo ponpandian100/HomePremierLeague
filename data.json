@@ -1115,6 +1115,68 @@
           "points": "1242.5"
         }
       ]
+    },
+    {
+      "matchOn": "26/04/26",
+      "match": "37",
+      "teams": [
+        "CSK",
+        "GT"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "794.5"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "429"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "625"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "688"
+        }
+      ]
+    },
+    {
+      "matchOn": "26/04/26",
+      "match": "38",
+      "teams": [
+        "LSG",
+        "KKR"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "649.5"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "627"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "589"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "683"
+        }
+      ]
     }
   ]
 }
