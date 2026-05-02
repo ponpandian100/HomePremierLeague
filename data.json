@@ -1301,6 +1301,68 @@
           "points": "749"
         }
       ]
+    },
+    {
+      "matchOn": "01/04/26",
+      "match": "43",
+      "teams": [
+        "RR",
+        "DC"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "973"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "633"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "860.5"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "696"
+        }
+      ]
+    },
+    {
+      "matchOn": "02/04/26",
+      "match": "44",
+      "teams": [
+        "CSK",
+        "MI"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "0"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "0"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "0"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "0"
+        }
+      ]
     }
   ]
 }
