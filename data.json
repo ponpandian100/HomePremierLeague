@@ -1303,7 +1303,7 @@
       ]
     },
     {
-      "matchOn": "01/04/26",
+      "matchOn": "01/05/26",
       "match": "43",
       "teams": [
         "RR",
@@ -1334,7 +1334,7 @@
       ]
     },
     {
-      "matchOn": "02/04/26",
+      "matchOn": "02/05/26",
       "match": "44",
       "teams": [
         "CSK",
@@ -1365,7 +1365,7 @@
       ]
     },
     {
-      "matchOn": "03/04/26",
+      "matchOn": "03/05/26",
       "match": "45",
       "teams": [
         "SRH",
@@ -1396,7 +1396,7 @@
       ]
     },
     {
-      "matchOn": "03/04/26",
+      "matchOn": "03/05/26",
       "match": "46",
       "teams": [
         "GT",
@@ -1423,6 +1423,37 @@
           "player": "Pal",
           "paid": "10",
           "points": "734.5"
+        }
+      ]
+    },
+    {
+      "matchOn": "04/05/26",
+      "match": "47",
+      "teams": [
+        "LSG",
+        "MI"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "884"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "832.5"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "848.5"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "826.5"
         }
       ]
     }
