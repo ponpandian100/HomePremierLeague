@@ -1611,6 +1611,37 @@
           "points": "925.5"
         }
       ]
+    },
+    {
+      "matchOn": "10/05/26",
+      "match": "53",
+      "teams": [
+        "CSK",
+        "LSG"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "957"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "610.5"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "931"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "825"
+        }
+      ]
     }
   ]
 }
