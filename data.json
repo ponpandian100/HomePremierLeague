@@ -1642,6 +1642,37 @@
           "points": "825"
         }
       ]
+    },
+    {
+      "matchOn": "10/05/26",
+      "match": "54",
+      "teams": [
+        "RCB",
+        "MI"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "886.5"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "521"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "886"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "670"
+        }
+      ]
     }
   ]
 }
