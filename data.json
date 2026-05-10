@@ -1580,6 +1580,37 @@
           "points": "475.5"
         }
       ]
+    },
+    {
+      "matchOn": "09/05/26",
+      "match": "52",
+      "teams": [
+        "RR",
+        "GT"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "969.5"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "930"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "864.5"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "925.5"
+        }
+      ]
     }
   ]
 }
