@@ -1673,6 +1673,68 @@
           "points": "670"
         }
       ]
+    },
+    {
+      "matchOn": "11/05/26",
+      "match": "55",
+      "teams": [
+        "PBKS",
+        "DC"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "797.5"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "798"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "869"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "736"
+        }
+      ]
+    },
+    {
+      "matchOn": "12/05/26",
+      "match": "56",
+      "teams": [
+        "GT",
+        "SRH"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "702"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "696.5"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "524"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "689"
+        }
+      ]
     }
   ]
 }
