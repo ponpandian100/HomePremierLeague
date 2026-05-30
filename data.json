@@ -2107,6 +2107,161 @@
           "points": "895"
         }
       ]
+    },
+    {
+      "matchOn": "24/05/26",
+      "match": "69",
+      "teams": [
+        "RR",
+        "MI"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": ""
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": ""
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": ""
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": ""
+        }
+      ]
+    },
+    {
+      "matchOn": "24/05/26",
+      "match": "70",
+      "teams": [
+        "DC",
+        "KKR"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": ""
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": ""
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": ""
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": ""
+        }
+      ]
+    },
+    {
+      "matchOn": "26/05/26",
+      "match": "71",
+      "teams": [
+        "RCB",
+        "GT"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "883"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "818"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "792.5"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "972"
+        }
+      ]
+    },
+    {
+      "matchOn": "27/05/26",
+      "match": "72",
+      "teams": [
+        "RR",
+        "SRH"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "929"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "1001.5"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "958.5"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "1225.5"
+        }
+      ]
+    },
+    {
+      "matchOn": "29/05/26",
+      "match": "73",
+      "teams": [
+        "RR",
+        "GT"
+      ],
+      "entryFee": "10",
+      "players": [
+        {
+          "player": "Pon",
+          "paid": "10",
+          "points": "1130"
+        },
+        {
+          "player": "Naveen",
+          "paid": "10",
+          "points": "861.5"
+        },
+        {
+          "player": "Varun",
+          "paid": "10",
+          "points": "1092.5"
+        },
+        {
+          "player": "Pal",
+          "paid": "10",
+          "points": "1046.5"
+        }
+      ]
     }
   ]
 }
